@@ -2,7 +2,8 @@ class Program11{
 	public static void main(String[] args){
 
 			String[] s = {"Mohan","Rohan","tom and Jerry","tiger"};
-		String result = printBiggestString(s);
+		//String result = printBiggestString(s);
+			String result = printBiggestString2(s);
 		
 			System.out.println(result);
 			
@@ -14,6 +15,17 @@ class Program11{
 			if(a[i].length() > biggest.length()){
 						biggest = a[i];
 						}
+				}
+		return biggest;
+		}
+
+			//method-2
+		public static String printBiggestString2(String[] a){
+		String biggest = " ";
+		for(String p:a){
+			if(p.length() >biggest.length()){
+						biggest = p;
+						} 
 				}
 		return biggest;
 		}
