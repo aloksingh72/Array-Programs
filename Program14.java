@@ -6,6 +6,7 @@ class Program14{
 						System.out.print(x+" ");
 					}
 				System.out.println(" ");
+				//method calling
 			int[] b =  insertElements(a,3,100);
 			for(int i:b){
 							System.out.print(i+" ");
