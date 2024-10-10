@@ -5,12 +5,12 @@ class Program22{
 	int[] a = {10,10,12,15,10,5,48,49,46};
 		
 			//method calling	
-		firstnonrepeating(a);
-		
+		int result = firstnonrepeating(a);
+		System.out.println("the first non-reapeating elements is "+result);
 		
 		}
 	
-	public static void  firstnonrepeating(int[] a){
+	public static int  firstnonrepeating(int[] a){
 			int[] freq = new int[101];
 
 			
@@ -19,12 +19,14 @@ class Program22{
 		}
 		
 		for(int i =0;i<a.length;i++){
-				if(freq[a[i]] ==1){
-						System.out.println(a[i]);
+				if(freq[a[i]] == 1){
+						return a[i];
 					}
 
 
 				}
+
+			return -1;
 
 
 		}
