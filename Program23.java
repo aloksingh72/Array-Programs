@@ -7,29 +7,20 @@ public class Program23 {
         
         int[] a ={12,150,156,365,57,89,99};
         countThreeDigit(a);
-        // sumAndAvg(a);
+       
     }
 
     //method declaration
     public static void countThreeDigit(int[] a){
+        int count=0;
         for(int i=0; i<a.length; i++){
             if(a[i] >100 && a[i]<999){
                 System.out.print(a[i]+" ");
+                count = count+1;;
             }
         }
+        System.out.println("\n no.of three digit is: "+count);
     }
 
-     //method declaration
-     public static void sumAndAvg(int[] a){
-        // int res =0;
-        int sum =0;
-        for (int i : a) {
-            // System.out.print(i+" ");
-            sum = sum +i;
-        }
-        System.out.println("sum is "+sum);
-        int res = sum /a.length;
-        System.out.println("Avg is "+res);
-
-    }
+    
 }
