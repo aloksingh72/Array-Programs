@@ -7,7 +7,13 @@ public class Program27 {
 
         }
 
-        getReverse(a);
+        // method -1
+        //getReverse(a);
+        //method -2 effecient method
+        int n = a.length-1;
+        System.out.println("\n the reverse array is ");
+        getReverse2(a,0,n);
+
     }
 
     // method declarations
@@ -23,6 +29,20 @@ public class Program27 {
             System.out.print(rev + " ");
         }
 
+    }
+
+    // method -2 effecient method beccause it does not need another new array
+    public static void getReverse2(int[] a,int start,int end){
+        while(start < end){
+            int temp = a[start];
+            a[start] = a[end];
+            a[end] = temp;
+            start++;
+            end--;
+        }
+        for(int i:a){
+            System.out.print(i+" ");
+        }
     }
 
 }
