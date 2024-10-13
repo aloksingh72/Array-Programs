@@ -5,16 +5,21 @@ public class Program33 {
     public static void main(String[] args) {
         int[] a ={1,2,3,4,5,6,7,8};
 
+       
 
-        // Scanner sc = new Scanner(System.in);
-        // System.out.println("enter the size");
-        // int size = sc.nextInt();
-        // int[] arr = new int[size];
-        // for (int i = 0; i < arr.length; i++) {
-        //     System.out.println("enter the first element " + (i + 1) + ":");
-        //     arr[i] = sc.nextInt();
 
-        // }
+        /*
+        For taking array element input from the user
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the size");
+        int size = sc.nextInt();
+        int[] arr = new int[size];
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("enter the first element " + (i + 1) + ":");
+            arr[i] = sc.nextInt();
+
+        }
+            */
 
         // method calling
         rotateKPositionToRight(a,2);

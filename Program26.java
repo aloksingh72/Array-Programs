@@ -21,3 +21,16 @@ public class Program26 {
     }
     
 }
+
+/*
+For taking String array element input from the user
+ * Scanner sc = new Scanner(System.in);
+ * System.out.println("Enter the size of the array");
+ * String size = sc.nextInt();
+ * sc.nextLine();
+ * String [] a = new String[size];
+ * for(int i =0;i<a.length;i++){
+ * System.out.println("Enter the array element"+(i+1)+":");
+ * a[i] = sc.nextLine();
+ * }
+ */
