@@ -57,7 +57,16 @@ public class Program33 {
 
             }
         }
-        
+        //alternative way
+/* 
+        public static void reverse(int[] a, int start, int end) {
+            for (int i = start; i < end; i++, end--) {
+                int temp = a[i];
+                a[i] = a[end];
+                a[end] = temp;
+            }
+        }
+      */  
 
     
 
