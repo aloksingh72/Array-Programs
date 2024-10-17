@@ -1,6 +1,6 @@
 // import java.util.Scanner;
 
-public class Program33 {
+public class Program33a {
 
     public static void main(String[] args) {
         int[] a = { 1, 2, 3, 4, 5, 6, 7, 8 };
@@ -27,19 +27,31 @@ public class Program33 {
     }
 
     public static void rotateKPositionToRight(int[] a, int k) {
-        int n = a.length;
+       
         // Normalize 'k' if it's greater than the length of the array
-        k = k % n;
+        
         // Step 1: Reverse the entire array
-        reverse(a, 0, n - 1);
+        // reverse(a, 0, n - 1);
+        int n = a.length;
+        for(int i=0;i<n;i++){
+                a[i+1] =a[i];
+
+
+        }
 
         // Step 2: Reverse the first 'k' elements
-        reverse(a, 0, k - 1);
+        // reverse(a, 0, k - 1);
 
         // Step 3: Reverse the remaining 'n - k' elements
-        reverse(a, k, n - 1);
+        // reverse(a, k, n - 1);
+        k = k % n;
+        
+
+
+
 
     }
+/* 
 
     public static void reverse(int[] a, int start, int end) {
 
@@ -52,6 +64,7 @@ public class Program33 {
 
         }
     }
+        */
     // alternative way
     /*
      * public static void reverse(int[] a, int start, int end) {
@@ -64,3 +77,4 @@ public class Program33 {
      */
 
 }
+
