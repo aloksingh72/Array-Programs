@@ -18,7 +18,7 @@ System.out.println();
     
     
     }
-
+//print alternate array
     public static void printAltArray(int[] a){
         int n = a.length;
         for(int i =0;i<n;i+=2){
@@ -27,6 +27,7 @@ System.out.println();
         }
 
     }
+    // print alternate array from end
     public static void printAltRevArray(int[] a){
         int n= a.length;
         for(int i=n-1,j=0;i>=0;i-=2,j++){
