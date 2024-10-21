@@ -4,7 +4,12 @@ public class Program44 {
         for(int p:a){
             System.out.print(p+" ");
         }
+        //method calling 
 
+
+    }
+    public static void method(int[] a){
+        
     }
 
     
