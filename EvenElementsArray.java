@@ -1,4 +1,4 @@
-
+// ques-> Find even elements from given array
 class EvenElementsArray {
 	public static void main(String[] args) {
 		int[] arr = { 12, 23, 45, 56, 23, 8 };
