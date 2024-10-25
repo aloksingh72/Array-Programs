@@ -1,3 +1,4 @@
+//dated->25/10/2024
 // ques-> Find even elements from given array
 class EvenElementsArray {
 	public static void main(String[] args) {
