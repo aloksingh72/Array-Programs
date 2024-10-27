@@ -1,3 +1,4 @@
+// calculate the string array size
 class Program9{
 		public static void main(String[] args){
 	String[] a ={"Mohan","Ram","tom and Jerry"};
