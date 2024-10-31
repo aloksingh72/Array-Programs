@@ -1,3 +1,4 @@
+// ques -> is array is strictly increasing or bot
 import java.util.Scanner;
 
 class Program12 {
